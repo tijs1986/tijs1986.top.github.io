@@ -1,0 +1,93 @@
+/* @import "compass/css3" */
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+table, th, td{
+    /* border: 2px solid black;
+    border-collapse: collapse; */
+    padding: 10px;
+    text-align: center;
+    min-width: 200px
+    border-radius: .15em;
+    overflow: hidden;
+}
+td{
+    border-collapse: collapse;
+    margin: 20px;
+    background-color: aqua;
+    border-color: black;
+    font-family: Montserrat;
+    font-weight: bold;
+    border-radius: .4em;
+}
+th {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #f2f2f2;
+    border-color: black;
+    border-radius: .4em;
+}
+
+.fcc-btn{
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-family: 'Times New Roman';
+    font-size: 14px;
+}
+
+.fcc-btn:hover {
+    background-color: #223094;
+    padding: 6px 15px;
+  }
+
+ body{
+    h1{
+        text-align: left; 
+        color: rgb(0, 0, 0);
+        font-size: 12mm;
+        line-height: 2;
+        font-family:'Times New Roman';
+        font-weight: bold;
+        background-color: white;
+    }
+    h2{
+        background-color: white;
+    }
+    
+    .pg-class01{
+        color: rgb(90, 43, 231);
+        font-size: 8mm;
+        line-height: 2;
+        font-family:Arial;
+        text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px
+    }
+
+
+ }
+   
+ hr{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+    border-width: 3px;
+
+}
+
+.rwd-table{
+    /* background: #34495E;
+    color: #fff; */
+    border: 0; 
+    border-bottom:1px solid #000
+    border-radius: .4em;
+    overflow: hidden;
+}
+
+ 
+
+
+
+
