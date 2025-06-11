@@ -18,7 +18,7 @@ try {
         alert(`Welcome ${validUser.firstname}`)
         localStorage.setItem('login_success', JSON.stringify(validUser))
         localStorage.setItem('authenticated','true');
-        window.location.href = 's02.Task.Index.html'
+        window.location.href = 's02.Task.index.html'
         // cambiartext()
     }
         
