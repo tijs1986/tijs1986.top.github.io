@@ -82,7 +82,7 @@ button:hover{
 
 .container{
     /* width: 1440px; */
-    width: 95%;
+    width: 100%;
     max-width: 1440px;
     margin: 20px auto;
 }
@@ -186,6 +186,7 @@ button:hover{
 }
 
 .pg-class05{
+    /* width: 100vh; */
     text-align: center; 
     font-size: 20px; 
     color: rgb(255, 255, 255); 
@@ -240,12 +241,11 @@ ol{
 
 
 .icon-01{
-    
+    display: flex;
+    flex-direction: row;
+    /* width: 100vh; */
     justify-content: center;
-    /* position: relative; */
-    display: block;
     cursor: pointer;
-    text-align: center;
 }
 
 i{
