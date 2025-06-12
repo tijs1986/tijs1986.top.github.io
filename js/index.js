@@ -16,11 +16,11 @@ window.onload = function(){
     let actual = 1;
 
     var imgs = [
-        'https://assets.onecompiler.app/42vw3gfvx/42vw3nywv/airplane%2001.jpg',
-        'https://assets.onecompiler.app/42vw3gfvx/42vw3nywv/airplane%2002.webp',
-        'https://www.poweruptoys.com/cdn/shop/articles/fun_airplane_facts_1600x.jpg?v=1670522839',
-        'https://cdn.hswstatic.com/gif/airplane-windows.jpg',
-        'https://honeywell.scene7.com/is/image/honeywell/AeroBT-s_414384259_Business-Jet_2880x1440'
+        'Pics/top 005.png',
+        'Pics/top 006.png',
+        'Pics/top 010.png',
+        'Pics/top 008.webp',
+        'Pics/top 009.webp'
 
     ];
 
@@ -53,7 +53,7 @@ window.onload = function(){
     }
 
     function render(){
-        $image.style.backgroundImage = `url(${imgs[actual-1]})`;
+        $image.style.backgroundImage = `url(${imgs[actual-1].replace(" ","%20")})`;
     }
 
     $btnfwd.addEventListener('click',forward);

@@ -26,10 +26,3 @@ try {
 } catch (error) {
   
 }
-
-
-// function cambiartext(){
-//     var msje = document.getElementById('sesion01');
-//     msje.textContent = 'mamita';
-//     console.log(msje)
-// }
